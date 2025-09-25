@@ -365,7 +365,7 @@ saveProgramDataBtn.addEventListener('click', async () => {
       method: 'POST',
       body: JSON.stringify(stateData),
       headers: {'Content-Type': 'application/json'},
-      mode: 'no-cors',
+      mode: 'cors',
     });
 
     alert('Program data saved successfully!');
@@ -1352,3 +1352,4 @@ inputSheetsBtn.addEventListener('click', async () => {
 </body>
 
 </html>r
+
